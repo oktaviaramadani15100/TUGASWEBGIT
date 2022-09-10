@@ -43,3 +43,103 @@ body{
     color: #F2F2F2;
 }
 
+.text-hero{
+    position: absolute;
+    left: 9%;
+    top: 130px;
+    line-height: 0;
+}
+
+.text-hero p:first-child{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.text-hero p:nth-child(2){
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin: 0;
+}
+
+.text-hero p:nth-child(3){
+    font-size: 30px;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.btn-hero{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px sold black;
+    font-size: 11px;
+}
+
+.btn-download{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2f3640;
+    border: none;
+    color: white;
+    font-size: 11px;
+}
+
+.model{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    height: 450px;
+}
+
+.about{
+    width: 80%;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin: -3% auto 20px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-right: 200px;
+}
+
+.about img{
+    height: 250px;
+    margin: 30px;
+}
+
+.text-about p:first-child{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.text-about p:nth-child(2),
+.text-about p:nth-child(3){
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.btn-about-hero{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.btn-about-download{
+    width: 100px;
+    height: 30px;
+    background-color: #2f3640;
+    font-size: 10px;
+    border: none;
+    color: white;
+}
