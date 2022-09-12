@@ -19,6 +19,7 @@ body{
     align-items: center;
     padding-left: 9%;
     background-color: white;
+    box-sizing: border-box;
 }
 
 .navbar p{
